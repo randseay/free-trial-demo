@@ -1,12 +1,12 @@
 import mark from "./mark.svg";
-import { Bars3Icon } from "@heroicons/react/24/solid";
+import menu from "./menu.svg";
 
 function Header() {
   return (
-    <div className="flex justify-between pt-6">
+    <div className="flex justify-between px-5 pt-6">
       <img src={mark} alt="logo" />
 
-      <Bars3Icon className="gray-400" />
+      <img src={menu} alt="menu icon" />
     </div>
   );
 }
