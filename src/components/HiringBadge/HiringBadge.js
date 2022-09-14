@@ -19,7 +19,7 @@ function HiringBadge() {
 
         <p className="text-sm">Visit our careers page</p>
 
-        <img className="pr-4" src={chevron} alt="chevron right" />
+        <img className="pr-3" src={chevron} alt="chevron right" />
       </a>
     </div>
   );

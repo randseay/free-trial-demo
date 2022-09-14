@@ -6,10 +6,12 @@ import illustration from "./illustration.svg";
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
-      <div className="mx-auto max-w-7xl">
+    <div className="flex min-h-screen flex-col bg-gray-900 text-white">
+      <div className="mx-auto w-full max-w-7xl">
         <Header />
+      </div>
 
+      <div className="mx-auto flex w-full max-w-7xl flex-1 flex-col justify-between sm:flex-row">
         <div className="flex flex-col p-5 sm:mt-32 sm:p-8">
           <HiringBadge />
 
@@ -29,9 +31,12 @@ function App() {
           <div className="sm:max-w-lg lg:max-w-xl">
             <SignupForm />
           </div>
-
-          <img src={illustration} alt="illustration" />
         </div>
+
+        <div
+          className="w-full flex-1 bg-cover bg-[position:0%_-15%] bg-no-repeat bg-origin-content px-3 sm:-ml-7 xl:bg-contain xl:bg-center"
+          style={{ backgroundImage: `url(${illustration})` }}
+        />
       </div>
     </div>
   );
