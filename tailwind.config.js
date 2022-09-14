@@ -7,6 +7,10 @@ module.exports = {
         badge: "10px",
         badgeWrap: "14px",
       },
+      maxHeight: {
+        80: "320px",
+        160: "640px",
+      },
     },
   },
   plugins: [],

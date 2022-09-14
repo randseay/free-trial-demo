@@ -34,7 +34,7 @@ function App() {
         </div>
 
         <div
-          className="w-full flex-1 bg-cover bg-[position:0%_-15%] bg-no-repeat bg-origin-content px-3 sm:-ml-7 xl:bg-contain xl:bg-center"
+          className="max-h-80 w-full flex-1 bg-cover bg-[position:0%_-15%] bg-no-repeat bg-origin-content px-3 sm:-ml-14 sm:max-h-160 md:-ml-7 xl:bg-contain xl:bg-[position:15%_0%]"
           style={{ backgroundImage: `url(${illustration})` }}
         />
       </div>
