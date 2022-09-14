@@ -13,12 +13,13 @@ function App() {
       <div className="flex flex-col p-5">
         <HiringBadge />
 
-        <div>
-          <h1>
-            A better way to <span>ship web apps</span>
+        <div className="mt-4">
+          <h1 className="text-4xl font-extrabold leading-10 tracking-tight">
+            A better way to{" "}
+            <span className="text-indigo-400">ship web apps</span>
           </h1>
 
-          <p>
+          <p className="text-base font-normal leading-6">
             Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
             Lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
             fugiat.
@@ -32,9 +33,13 @@ function App() {
             <Button>Start free trial</Button>
           </form>
 
-          <p>
+          <p className="text-sm font-normal leading-5">
             Start your free 14-day trial, no credit card necessary. By providing
-            your email, you agree to our <a>terms or service</a>.
+            your email, you agree to our{" "}
+            <a href="#" className="font-medium">
+              terms or service
+            </a>
+            .
           </p>
         </div>
 
