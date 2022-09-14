@@ -16,7 +16,7 @@ function MenuItem({ children, url }) {
 export function MobileMenu({ open, setOpen }) {
   return (
     <Transition.Root show={open} as={Fragment}>
-      <Dialog as="div" className="relative z-10" onClose={setOpen}>
+      <Dialog as="div" className="relative z-10 sm:hidden" onClose={setOpen}>
         <Transition.Child
           as={Fragment}
           enter="ease-in-out duration-300"
