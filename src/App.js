@@ -13,12 +13,12 @@ function App() {
         <HiringBadge />
 
         <div className="mt-4">
-          <h1 className="text-4xl font-extrabold leading-10 tracking-tight">
+          <h1 className="mb-3 text-4xl font-extrabold leading-10 tracking-tight">
             A better way to{" "}
             <span className="text-indigo-400">ship web apps</span>
           </h1>
 
-          <p className="text-base font-normal leading-6">
+          <p className="mb-10 text-base font-normal leading-6">
             Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
             Lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
             fugiat.
