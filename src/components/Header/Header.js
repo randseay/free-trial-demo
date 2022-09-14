@@ -6,7 +6,9 @@ function Header() {
     <div className="flex justify-between px-5 pt-6">
       <img src={mark} alt="logo" />
 
-      <img src={menu} alt="menu icon" />
+      <button className="cursor-pointer">
+        <img src={menu} alt="menu icon" />
+      </button>
     </div>
   );
 }
