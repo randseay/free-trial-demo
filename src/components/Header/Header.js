@@ -23,7 +23,7 @@ function Header() {
         <div className="flex items-center">
           <img src={mark} alt="logo" />
 
-          <nav className="ml-10 hidden list-none justify-between gap-x-8 sm:flex">
+          <nav className="ml-5 hidden list-none justify-between gap-x-4 sm:flex md:ml-10 md:gap-x-8">
             <NavItem url="#">Product</NavItem>
             <NavItem url="#">Features</NavItem>
             <NavItem url="#">Marketplace</NavItem>
@@ -31,7 +31,7 @@ function Header() {
           </nav>
         </div>
 
-        <nav className="hidden list-none items-center gap-x-8 sm:flex">
+        <nav className="hidden list-none items-center gap-x-4 sm:flex md:gap-x-8">
           <NavItem url="#">Log in</NavItem>
 
           <Button secondary>Start free trial</Button>
