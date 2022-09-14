@@ -7,7 +7,7 @@ import Button from "components/Button";
 
 function MenuItem({ children, url }) {
   return (
-    <li className="text-base font-normal text-gray-700">
+    <li className="text-base font-normal text-gray-700 hover:underline">
       <a href={url}>{children}</a>
     </li>
   );
