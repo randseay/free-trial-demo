@@ -1,6 +1,6 @@
 # Free Trial Demo
 
-A small responsive project using Tailwind and HeadlessUI
+A small responsive project using Create React App, Tailwind, and HeadlessUI
 
 ## Screenshots
 
@@ -22,7 +22,7 @@ Large media size
 
 ## Screencast
 
-[Untitled_ Sep 14, 2022 1_43 PM.mov](https://user-images.githubusercontent.com/4110122/190258988-ecdfa996-50ce-4f74-a01c-87662fc9e7f8.mov)
+[Untitled\_ Sep 14, 2022 1_43 PM.mov](https://user-images.githubusercontent.com/4110122/190258988-ecdfa996-50ce-4f74-a01c-87662fc9e7f8.mov)
 
 ## Unit tests
 
