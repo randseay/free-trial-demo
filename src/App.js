@@ -1,9 +1,8 @@
-import Button from "components/Button";
 import Header from "components/Header";
 import HiringBadge from "components/HiringBadge";
+import SignupForm from "components/SignupForm";
 
 import illustration from "./illustration.svg";
-import "./App.css";
 
 function App() {
   return (
@@ -25,22 +24,7 @@ function App() {
             fugiat.
           </p>
 
-          <form>
-            <label htmlFor="email">
-              <input id="email" name="email" />
-            </label>
-
-            <Button>Start free trial</Button>
-          </form>
-
-          <p className="text-sm font-normal leading-5">
-            Start your free 14-day trial, no credit card necessary. By providing
-            your email, you agree to our{" "}
-            <a href="#" className="font-medium">
-              terms or service
-            </a>
-            .
-          </p>
+          <SignupForm />
         </div>
 
         <img src={illustration} alt="illustration" />
