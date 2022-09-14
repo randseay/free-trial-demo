@@ -18,7 +18,7 @@ function App() {
             <span className="text-indigo-400">ship web apps</span>
           </h1>
 
-          <p className="mb-10 text-base font-normal leading-6">
+          <p className="mb-10 text-base font-normal leading-6 text-gray-300">
             Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
             Lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
             fugiat.
