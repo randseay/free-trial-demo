@@ -1,3 +1,33 @@
+# Free Trial Demo
+
+A small responsive project using Tailwind and HeadlessUI
+
+## Screenshots
+
+Mobile media size
+
+![image](https://user-images.githubusercontent.com/4110122/190259834-338fe184-9fd8-4d6c-bd74-8a2c87d9ee4e.png)
+
+Tablet media size
+
+![image](https://user-images.githubusercontent.com/4110122/190259374-085c231c-24c1-4f2a-8afc-7efa1cfd9029.png)
+
+Laptop media size
+
+![image](https://user-images.githubusercontent.com/4110122/190259489-ef9b3797-6e48-4c90-a440-992f4aca643d.png)
+
+Large media size
+
+![image](https://user-images.githubusercontent.com/4110122/190259568-75c849ae-098c-4e15-82d9-d3c3e9761fc1.png)
+
+## Screencast
+
+[Untitled_ Sep 14, 2022 1_43 PM.mov](https://user-images.githubusercontent.com/4110122/190258988-ecdfa996-50ce-4f74-a01c-87662fc9e7f8.mov)
+
+## Unit tests
+
+![image](https://user-images.githubusercontent.com/4110122/190259678-ab820e70-6b80-4d08-94bd-9e3d43150e83.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
